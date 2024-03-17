@@ -5,4 +5,4 @@ for i in range(122, 96, -1):
         result+=chr(i)
     else:
         result+=chr(i-32)
-print(result,end="")
+print("{}".format(result),end="")
