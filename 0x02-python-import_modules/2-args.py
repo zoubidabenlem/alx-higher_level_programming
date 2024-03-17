@@ -6,7 +6,7 @@ if __name__ == "__main__":
         print("{} arguments.".format(size))
         sys.exit()
     if size == 1:
-        print("{} argument.".format(size))
+        print("{} argument:".format(size))
     else:
         print("{} arguments:".format(size))
     for i in range(1, size + 1):
