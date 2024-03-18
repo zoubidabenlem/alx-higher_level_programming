@@ -1,10 +1,7 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    strl = list(my_string)
-
-    for ch in strl:
-        if ch == 'c' or ch == 'C':
-            strl.remove(ch)
-
-    new_string = ''.join(strl)
+    new_string = ""
+    for c in my_string:
+        if c not in "Cc":
+            new_string += c
     return new_string
