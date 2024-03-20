@@ -1,6 +1,4 @@
 def uniq_add(my_list=[]):
-    seq = set(my_list)
     res = 0
-    for ele in seq:
-        res += ele 
+    throwaway = [res += ele for ele in set(my_list)]
     return res
