@@ -15,4 +15,4 @@ def roman_to_int(roman_string):
                     prev = True
                     if letter == 'I':
                         prevLet = True
-    return number
+    return int(number)
