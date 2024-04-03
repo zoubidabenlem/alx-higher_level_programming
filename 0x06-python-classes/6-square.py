@@ -1,15 +1,13 @@
 #!/usr/bin/python3
-'''attribute definition and error handling'''
+"""defines a square"""
 
 
 class Square:
-    '''square but with size and type exceptions'''
+    """square with private instance attribute: size"""
+
     def __init__(self, size=0, position=(0, 0)):
-        self.__size = size
-        self.__position = position
-    '''calculate square'''
-    def area(self):
-        return self.__size ** 2
+        self.size = size
+        self.position = position
 
     @property
     def size(self):
@@ -35,7 +33,10 @@ class Square:
                 or not all(val >= 0 for val in value):
             raise TypeError("position must be a tuple of 2 positive integers")
 
-    '''print square'''
+    def area(self):
+        area = self.__size ** 2
+        return area
+
     def my_print(self):
         if self.__size == 0:
             print("")
