@@ -96,7 +96,7 @@ try:
     print("Area: {} for size: {}".format(my_square.area(), my_square.size))
 except Exception as e:
     print(e)
-'''
+
 ############################################# TEST 5
 Square = __import__('5-square').Square
 
@@ -114,4 +114,22 @@ my_square.size = 0
 my_square.my_print()
 
 print("--")
+'''
 
+########################################### TEST 6
+Square = __import__('6-square').Square
+
+my_square_1 = Square(3)
+my_square_1.my_print()
+
+print("--")
+
+my_square_2 = Square(3, (1, 1))
+my_square_2.my_print()
+
+print("--")
+
+my_square_3 = Square(3, (3, 0))
+my_square_3.my_print()
+
+print("--")
