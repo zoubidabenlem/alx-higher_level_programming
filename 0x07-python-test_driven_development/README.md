@@ -1,6 +1,5 @@
 # 0x07. Python - Test-driven development
 ## Tasks
----
 ### 0. Integers addition
 Write a function that adds 2 integers.
 
@@ -39,7 +38,7 @@ Write a function that prints a square with the character #.
 - if size is a float and is less than 0, raise a TypeError exception with the message size must be an integer
 - You are not allowed to import any module
 ---
-4. Text indentation
+### 4. Text indentation
 Write a function that prints a text with 2 new lines after each of these characters: ., ? and :
 
 > Prototype: def text_indentation(text):
@@ -47,7 +46,7 @@ Write a function that prints a text with 2 new lines after each of these charact
 - There should be no space at the beginning or at the end of each printed line
 - You are not allowed to import any module
 ---
-5. Max integer - Unittest
+### 5. Max integer - Unittest
 Since the beginning you have been creating **Interactive tests**. For this exercise, you will add Unittests.
 
 In this task, you will write unittests for the function def max_integer(list=[]):.
