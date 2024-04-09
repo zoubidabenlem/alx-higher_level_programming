@@ -385,9 +385,11 @@ julien@ubuntu:/tmp/so$
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
-Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (105-line1.txt)
-Why? (optional blog post :))
-> **NB** `NSMALLPOSINTS`, `NSMALLNEGINTS`
+- Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (105-line1.txt)
+- Why? 
+	> See the file on directory [`105`](https://github.com/zoubidabenlem/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/105/105-explanation.markdown)
+
+> **NB**  `NSMALLPOSINTS`, `NSMALLNEGINTS`
 
 ---
 
