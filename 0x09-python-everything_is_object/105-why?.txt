@@ -1,0 +1,1 @@
+Since the script does not perform any integer operations or manipulations, no integer objects are created or manipulated during its execution.
