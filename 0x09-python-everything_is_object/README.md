@@ -328,3 +328,63 @@ guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py
 
 ---
 
+### 30. Low memory cost
+
+Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called `first_name`.
+
+- You are not allowed to import any module
+
+---
+
+### 31. int 1/3
+
+```
+julien@ubuntu:/python3$ cat int.py 
+a = 1
+b = 1
+julien@ubuntu:/python3$
+```
+
+Assuming we are using a CPython implementation of Python3 with default options/configuration:
+1. How many int objects are created by the execution of the first line of the script? (103-line1.txt)
+2. How many int objects are created by the execution of the second line of the script (103-line2.txt)
+
+---
+
+### 32. int 2/3
+
+```
+julien@ubuntu:/python3$ cat int.py 
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+julien@ubuntu:/python3$ 
+```
+
+Assuming we are using a CPython implementation of Python3 with default options/configuration:
+
+1. How many int objects are created by the execution of the first line of the script? (104-line1.txt)
+2. How many int objects are created by the execution of the second line of the script (104-line2.txt)
+3. After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No (104-line3.txt)
+4. After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No (104-line4.txt)
+5. How many int objects are created by the execution of the last line of the script (104-line5.txt)
+
+---
+
+### 33. int 3/3
+
+```
+julien@twix:/tmp/so$ cat int.py 
+print("I")
+print("Love")
+print("Python")
+julien@ubuntu:/tmp/so$ 
+```
+
+Assuming we are using a CPython implementation of Python3 with default options/configuration:
+
+Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (105-line1.txt)
+Why? (optional blog post :))
+> *NB* `NSMALLPOSINTS`, `NSMALLNEGINTS`
