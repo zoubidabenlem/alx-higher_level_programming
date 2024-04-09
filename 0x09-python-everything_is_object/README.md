@@ -165,7 +165,7 @@ What does this script print?
 What does this script print?
 
 	def increment(n):
-    		n += 1
+    	    n += 1
 
 	a = 1
 	increment(a)
@@ -173,4 +173,125 @@ What does this script print?
 
 ---
 
+### 17. List incrementation
 
+What does this script print?
+
+	def increment(n):
+	    n.append(4)
+
+	l = [1, 2, 3]
+	increment(l)
+	print(l)
+
+---
+
+### 18. List assignation
+
+What does this script print?
+
+	def assign_value(n, v):
+	    n = v
+
+	l1 = [1, 2, 3]
+	l2 = [4, 5, 6]
+	assign_value(l1, l2)
+	print(l1)
+
+---
+
+### 19. Copy a list object
+
+Write a function def copy_list(l): that returns a copy of a list.
+
+- The input list can contain any type of objects
+- Your file should be maximum 3-line long (no documentation needed)
+- You are not allowed to import any module
+
+---
+
+### 20. Tuple or not?
+
+	a = ()
+
+Is a a tuple? Answer with Yes or No.
+
+---
+
+### 21. Tuple or not?
+
+	a = (1, 2)
+
+Is a a tuple? Answer with Yes or No.
+
+---
+
+### 22. Tuple or not?
+
+	a = (1)
+
+Is a a tuple? Answer with Yes or No.
+
+---
+
+### 23. Tuple or not?
+
+	a = (1, )
+
+Is a a tuple? Answer with Yes or No.
+
+---
+
+### 24. Who I am?
+
+What does this script print?
+
+	a = (1)
+	b = (1)
+	a is b
+
+---
+
+### 25. Tuple or not
+
+What does this script print?
+
+	a = (1, 2)
+	b = (1, 2)
+	a is b
+
+---
+
+### 26. Empty is not empty
+
+What does this script print?
+
+	a = ()
+	b = ()
+	a is b
+
+---
+
+### 27. Still the same?
+
+	>>> id(a)
+	139926795932424
+	>>> a
+	[1, 2, 3, 4]
+	>>> a = a + [5]
+	>>> id(a)
+
+Will the last line of this script print `139926795932424` ? Answer with Yes or No.
+
+---
+
+### 28. Same or not?
+
+	>>> a
+	[1, 2, 3]
+	>>> id (a)
+	139926795932424
+	>>> a += [4]
+	>>> id(a)
+
+Will the last line of this script print `139926795932424` ? Answer with Yes or No.
