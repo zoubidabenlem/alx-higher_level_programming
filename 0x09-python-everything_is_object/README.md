@@ -299,7 +299,6 @@ Will the last line of this script print `139926795932424` ? Answer with Yes or N
 ---
 
 ### 29. #pythonic
-#advanced
 
 Write a function magic_string() that returns a string “BestSchool” n times the number of the iteration (see code):
 
