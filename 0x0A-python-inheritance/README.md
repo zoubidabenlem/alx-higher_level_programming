@@ -79,3 +79,14 @@ A class Square is developed, inheriting from Rectangle, to represent square geom
 
 Building upon Task 10, the Square class is enhanced with customized print and str representations, distinguishing it as a square geometry.
 
+## Task `12`:  My integer
+
+> File: [`100-my_int.py`](./100-my_int.py)
+
+class named ÂMyIntÂ that inherits from the built-in int class. However, there's a twist: MyInt behaves differently from a regular integer. Specifically, the == and != operators are inverted. That is, == returns False when the values are equal, and != returns True when the values are equal.
+
+## Task `13`: Can I?
+
+> File: [`101-add_attribute.py`](./101-add_attribute.py)
+
+function called Âadd_attributeÂ that adds a new attribute to an object if it's possible. If the object cannot have a new attribute, the function should raise a TypeError exception with the message "can't add new attribute".
