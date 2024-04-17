@@ -9,7 +9,7 @@ This repository contains Python scripts and classes focused on the concept of in
 
 ## Task `0`: Lookup
 
-> File: [0-lookup.py](./0-lookup.py)
+> File: [Â0-l](./0-lookup.py)
 
 The task involves creating a function lookup that returns a list of available attributes and methods of an object. The function does not rely on importing any modules and provides insight into the structure of objects in Python.
 
